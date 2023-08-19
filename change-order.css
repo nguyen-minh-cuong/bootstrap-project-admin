@@ -1,0 +1,47 @@
+.container1{
+  display: flex;
+  flex-wrap:wrap;
+  gap:20px;
+  text-align: center;
+}
+.frame1{
+  background-color:lightblue;
+}
+.choose-field1 {
+  display:flex;
+  gap:10px;
+}
+.container2{
+  display: flex;
+  flex-wrap:wrap;
+  gap:20px;
+  text-align: center;
+}
+.frame2{
+  background-color:lightgreen;
+}
+.choose-field2 {
+  display:flex;
+  gap:10px;
+}
+.instruction{
+  margin-bottom:20px;
+  margin-top:20px;
+}
+.btn{
+  margin-top: 20px;
+}
+.notice1 {
+  color:lightblue;
+  margin-top:20px;
+}
+.notice2{
+  color:lightgreen;
+  margin-top:20px;
+}
+#warning{
+  color:red;
+}
+#warning2{
+  color:red;
+}

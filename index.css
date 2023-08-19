@@ -1,0 +1,52 @@
+body:before{
+  background-size:100% 100%;
+  content:""; 
+  position: fixed;
+  z-index:-1;
+  top:0; left: 0; right: 0; height: 100%;
+  opacity:0.9;
+}
+.form-c {
+  display:flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top:30px;
+}
+#myForm{
+  border-style:solid;
+  border-color:gray;
+  padding:2px;
+}
+#myForm2{
+  border-style:dotted;
+  border-color:red;
+  padding:2px;
+}
+
+#displayCard{
+}
+.sub-displayCard{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  gap:10px;
+  text-align: center;
+}
+.name-card{
+  background-color:lightyellow;
+}
+.src-card{
+  background-color:lightgray;
+  width:100%;
+  height:100px;
+}
+.more-card{
+  background-color:lightblue;
+}
+#cv{
+  border-style:solid;
+}
+#img{
+  height:200x;
+  width:200px;
+}

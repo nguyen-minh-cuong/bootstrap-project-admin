@@ -1,0 +1,59 @@
+
+.client-container{
+  margin:20px 5px 0px 5px;
+  display:flex;
+  justify-content:  flex-start;
+  flex-wrap:wrap;
+  gap:10px;
+}
+.frame{
+  display:flex;
+  flex-direction:column;
+  text-align: center;
+  color:white;
+  width: 31%;
+}
+.client{
+  background-color:black;
+}
+.client2{
+  background-color:green;
+}
+.client3{
+  background-color:red;
+}
+.phone-number{
+  background-color:#B0C4DE;
+  overflow:scroll;
+}
+.email{
+  background-color:#708090;
+  overflow:scroll;
+}
+.address{
+  background-color:#B0C4DE;
+  overflow:scroll;
+}
+.need{
+  background-color:#708090;
+}
+.date{
+  background-color:#B0C4DE;
+}
+.check{
+  display:flex;
+  flex-wrap:wrap;
+  background-color:#708090;
+  gap:5px;
+}
+.check-container{
+  
+}
+.option{
+}
+#alert{
+  color:red;
+}
+.btn {
+  margin-top:10px;
+}
