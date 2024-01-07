@@ -305,7 +305,7 @@ createBr.onclick = () => {
   container.appendChild(newDelete)
 }
 const upload = async (text,name) => {
-let x =   await fetch("https://phone-number--cuongnguyen213.repl.co/products-text",{
+let x =   await fetch("https://941aa320-ef24-4c93-a81c-5ead594cfdea-00-3i6faog1cpfv6.global.replit.dev/products-text",{
    method:"POST",
    headers: { "Content-Type": "application/json"},
    body: JSON.stringify({text:text,
@@ -315,7 +315,7 @@ let x =   await fetch("https://phone-number--cuongnguyen213.repl.co/products-tex
  console.log(x)
 }
 const download = async () => {
-  let x =  await fetch("https://phone-number--cuongnguyen213.repl.co/products-text").then((data) => {
+  let x =  await fetch("https://941aa320-ef24-4c93-a81c-5ead594cfdea-00-3i6faog1cpfv6.global.replit.dev/products-text").then((data) => {
    return data.json()
  })
  console.log(x)
@@ -348,7 +348,7 @@ const lookBack = async () => {
   }
 }
 const deleteName = async (theName) => {
- const x =  await fetch("https://phone-number--cuongnguyen213.repl.co/products-text-delete",{
+ const x =  await fetch("https://941aa320-ef24-4c93-a81c-5ead594cfdea-00-3i6faog1cpfv6.global.replit.dev/products-text-delete",{
    method:"POST",
    headers: {
      "Content-Type": "application/json"

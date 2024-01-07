@@ -6,8 +6,8 @@ const deleteCheck = document.getElementById("delete");*/
 const saveBtn = document.getElementById("save-btn")
 let x = []
 const findClient = async () => {
-  let x = await fetch("https://interface-data--cuongnguyen213.repl.co/client-data").then((data) => { return data.json() })
-  
+  let x = await fetch("https://f0cbd95e-a28c-4979-8b06-572c567e560b-00-2be7j4qe36l3r.global.replit.dev/client-data").then((data) => { return data.json() })
+  console.log(x)
   return x 
 }
 const createClient =  (num,i) => {
@@ -17,7 +17,7 @@ const createClient =  (num,i) => {
  if (num.state ==="true") {
    clientT.setAttribute("class","client2")
  } else {clientT.setAttribute("class","client")}
- clientT.innerHTML = "client"
+ clientT.innerHTML = "Khách"
  const phoneNumber = document.createElement("div")
  phoneNumber.setAttribute("class","phone-number")
  phoneNumber.innerHTML =`${num.phoneNumber}`
@@ -115,7 +115,7 @@ const combineFC  = async () => {
   }
 }
 const upload = async (info,state) => {
- let x =  await fetch("https://phone-number--cuongnguyen213.repl.co/info-state",{
+ let x =  await fetch("https://941aa320-ef24-4c93-a81c-5ead594cfdea-00-3i6faog1cpfv6.global.replit.dev/info-state",{
    method:"POST",
    headers: { "Content-Type": "application/json"},
    body: JSON.stringify({phoneNumber:info,state:state})

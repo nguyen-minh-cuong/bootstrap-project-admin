@@ -10,7 +10,7 @@ const name2 = document.getElementById("name2");
 const alert2 = document.getElementById("alert2")
 const displayCard = document.getElementById("displayCard");
 const upLoad = async (data) => {
-await  fetch("https://phone-number--cuongnguyen213.repl.co/interface-data/",{
+await  fetch("https://941aa320-ef24-4c93-a81c-5ead594cfdea-00-3i6faog1cpfv6.global.replit.dev/interface-data/",{
     method:"POST",
     headers:{
       "Content-Type": "application/json"
@@ -20,7 +20,7 @@ await  fetch("https://phone-number--cuongnguyen213.repl.co/interface-data/",{
   
 }
 const downLoad = async ()  => {
-  let x = await  fetch("https://interface-data--cuongnguyen213.repl.co/",{method:"GET",headers:{accept: 'application/json'}}).then((data) => {return data.json() })
+  let x = await  fetch("https://f0cbd95e-a28c-4979-8b06-572c567e560b-00-2be7j4qe36l3r.global.replit.dev/",{method:"GET",headers:{accept: 'application/json'}}).then((data) => {return data.json() })
  return x
 }
 const createInfo = async () => {
@@ -39,7 +39,7 @@ const createInfo = async () => {
 }
 const deleteInfo = async (x) => {
   const info = {name:x}
-   await  fetch("https://interface-data--cuongnguyen213.repl.co/interface-data",{
+   await  fetch("https://f0cbd95e-a28c-4979-8b06-572c567e560b-00-2be7j4qe36l3r.global.replit.dev/interface-data",{
     method:"POST",
     headers:{"Content-Type": 'application/json'},
     body: JSON.stringify(info)

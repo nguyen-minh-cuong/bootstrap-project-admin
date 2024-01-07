@@ -11,7 +11,7 @@ order.forEach((el) => {
  
 if ( finalOrder.length === root.length) {
   warning.innerHTML ="Đừng bấm nút cho tới khi hoàn thành lưu"
-  await fetch("https://phone-number--cuongnguyen213.repl.co/delete-test1")
+  await fetch("https://941aa320-ef24-4c93-a81c-5ead594cfdea-00-3i6faog1cpfv6.global.replit.dev/delete-test1")
   for await (let i of finalOrder) {
     
   await  upload(i)
@@ -22,7 +22,7 @@ if ( finalOrder.length === root.length) {
 let root
 let order = []
 const upload = async (x) => {
- const y =  await fetch("https://phone-number--cuongnguyen213.repl.co/test1",{
+ const y =  await fetch("https://941aa320-ef24-4c93-a81c-5ead594cfdea-00-3i6faog1cpfv6.global.replit.dev/test1",{
     method:"post",
     headers:{
       "Content-Type":"application/json"
@@ -32,7 +32,7 @@ const upload = async (x) => {
   
 }
 const download = async () => {
-  const x = await fetch("https://phone-number--cuongnguyen213.repl.co/test1").then((data) => { return data.json()})
+  const x = await fetch("https://941aa320-ef24-4c93-a81c-5ead594cfdea-00-3i6faog1cpfv6.global.replit.dev/test1").then((data) => { return data.json()})
   
   root = x
   return x
@@ -109,7 +109,7 @@ order2.forEach((el) => {
   
 if ( finalOrder2.length === root2.length) {
   warning2.innerHTML=" Đừng ấn vào nút cho tới khi hoàn thành lưu thứ tự"
-  await fetch("https://phone-number--cuongnguyen213.repl.co/delete-test2")
+  await fetch("https://941aa320-ef24-4c93-a81c-5ead594cfdea-00-3i6faog1cpfv6.global.replit.dev/delete-test2")
   
   for await (let i of finalOrder2) {
     
@@ -121,7 +121,7 @@ if ( finalOrder2.length === root2.length) {
 let root2
 let order2 = []
 const upload2 = async (x) => {
- const y =  await fetch("https://phone-number--cuongnguyen213.repl.co/test2",{
+ const y =  await fetch("https://941aa320-ef24-4c93-a81c-5ead594cfdea-00-3i6faog1cpfv6.global.replit.dev/test2",{
     method:"post",
     headers:{
       "Content-Type":"application/json"
@@ -131,7 +131,7 @@ const upload2 = async (x) => {
   
 }
 const download2 = async () => {
-  const x = await fetch("https://phone-number--cuongnguyen213.repl.co/test2").then((data) => { return data.json()})
+  const x = await fetch("https://941aa320-ef24-4c93-a81c-5ead594cfdea-00-3i6faog1cpfv6.global.replit.dev/test2").then((data) => { return data.json()})
   
   root2 = x
   return x

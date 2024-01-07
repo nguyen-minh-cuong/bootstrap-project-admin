@@ -25,3 +25,8 @@ let newSrc  = await fetch("https://api.imgbb.com/1/upload?key=21aaff54b25f41f351
   
 })*/
 // curl --location --request POST "https://api.imgbb.com/1/upload?expiration=600&key=YOUR_CLIENT_API_KEY" --form "image=R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+/*const run = async () => {
+  const x = await fetch("https://interface-data--cuongnguyen213.repl.co/new-connect").then((data) => { return data.json()})
+  console.log(x)
+}
+run()*/
